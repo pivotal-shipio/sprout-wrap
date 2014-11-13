@@ -23,7 +23,6 @@ recipes:
 # development (rails)
 - sprout-rbenv
 - sprout-ruby
-- sprout-mysql
 - sprout-postgresql
 
 # apps
@@ -37,32 +36,58 @@ recipes:
 - sprout-osx-apps::macvim
 - sprout-rubymine
 
+- shipio::bash_it
+
+- sprout-android
+
 node_attributes:
   sprout:
     git:
       domain: pivotallabs.com
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
+        - initials: gv
+          name: Gregg Van Hove
+          username: gvanhove
+        - initials: ss
+          name: Sam Serrano
+          username: sserrano
+        - initials: eb
+          name: Eric Black
+        - initials: st
+          name: Sandeep Tamhankar
+          username: sandman
+        - initials: ap
+          name: Andrew Page
+          username: apage
+        - initials: tr
+          name: Tim Rosenblatt
+          username: timrosenblatt
       projects:
         -
           name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+          url: https://github.com/pivotal-shipio/sprout-wrap.git
+        -
+          name: pivotal_ide_prefs
+          url: https://github.com/pivotal-shipio/pivotal_ide_prefs.git
+        -
+          name: shipio
+          url: git@github.com:shipio/shipio.git
+        -
+          name: osx-workers
+          url: git@github.com:shipio/osx-workers.git
+        -
+          name: construir
+          url: git@github.com:shipio/construir.git
+    rbenv:
+      rubies:
+        - 2.1.2
+        - 2.0.0-p481
     terminal:
       default_profile: 'Pro'
     settings:
       clock_format: EEE MMM d  h:mm:ss a
     dock_preferences:
-      orientation: 'left'
+      orientation: 'bottom'
       auto_hide: true
       clear_apps: true
       tile_size: 35
@@ -83,6 +108,8 @@ node_attributes:
         - wget
         - rbenv-binstubs
         - rbenv-gem-rehash
+        - phantomjs
+        - redis
       casks:
         - ccmenu
         - firefox

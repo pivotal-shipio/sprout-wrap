@@ -5,6 +5,16 @@ SITE
     homebrew (1.7.2)
 
 GIT
+  remote: https://github.com/pivotal-shipio/sprout-android
+  ref: patch-1
+  sha: 34e3ac4187589a2c218cb1eeb1f6bfe27ba23927
+  specs:
+    sprout-android (0.1.0)
+      dmg (>= 0.0.0)
+      homebrew (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
+GIT
   remote: https://github.com/pivotal-sprout/osx
   ref: master
   sha: 5d7deecd6a928db62a7061907c790b3e07f47e22
@@ -118,8 +128,17 @@ GIT
       osx (>= 0.0.0)
       sprout-base (>= 0.0.0)
 
+PATH
+  remote: site-cookbooks/shipio
+  specs:
+    shipio (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
 DEPENDENCIES
   osx (>= 0)
+  shipio (>= 0)
+  sprout-android (>= 0)
   sprout-base (>= 0)
   sprout-git (>= 0)
   sprout-homebrew (>= 0)
