@@ -43,6 +43,6 @@ cookbook 'sprout-ssh',
 
 cookbook 'sprout-android',
   :github => 'pivotal-shipio/sprout-android',
-  :ref => 'patch-1'
+  :ref => 'working'
 
 cookbook 'shipio', :path => 'site-cookbooks/shipio'
