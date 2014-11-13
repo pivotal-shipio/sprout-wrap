@@ -7,7 +7,7 @@ recipes:
 - sprout-homebrew
 
 # settings
-- shipio::sprout-osx-settings
+- shipio::osx_settings
 - sprout-osx-settings::dock_preferences
 - sprout-terminal
 - sprout-terminal::update_font

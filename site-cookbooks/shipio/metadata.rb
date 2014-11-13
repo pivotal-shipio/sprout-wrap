@@ -8,3 +8,5 @@ version          '0.1.0'
 supports         'mac_os_x'
 depends          'sprout-base'
 depends          'homebrew'
+depends          'sprout-osx-settings'
+
