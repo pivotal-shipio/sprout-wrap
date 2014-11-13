@@ -7,7 +7,7 @@ SITE
 GIT
   remote: https://github.com/pivotal-shipio/sprout-android
   ref: working
-  sha: 9bf63382a7445e3008969d9c4a9918453a31accf
+  sha: f4f581a5e992dcce143887f852b5ec6e5ba48248
   specs:
     sprout-android (0.1.0)
       dmg (>= 0.0.0)

@@ -124,3 +124,9 @@ node_attributes:
         - virtualbox
         - xquartz
         - xscope
+    android:
+      haxm:
+        dmg_path: extras/intel/Hardware_Accelerated_Execution_Manager/IntelHAXM_1.1.1_for_10_9_and_above.dmg
+        package_name: IntelHAXM_1.1.1
+        package_id: com.intel.kext.haxm.1.1.1
+        checksum: 4cae8606d2e2c863272fba8f53d66cf598a5ff5b509a9ff32cc8f52a0b0d9caf
