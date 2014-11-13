@@ -1,13 +1,13 @@
 SITE
-  remote: http://community.opscode.com/api/v1
+  remote: https://supermarket.getchef.com/api/v1
   specs:
-    dmg (2.2.0)
-    homebrew (1.7.2)
+    dmg (2.2.2)
+    homebrew (1.9.2)
 
 GIT
   remote: https://github.com/pivotal-shipio/sprout-android
   ref: working
-  sha: f4f581a5e992dcce143887f852b5ec6e5ba48248
+  sha: 4f78bee4e96bbb770e3ea028febd8b0887cc3563
   specs:
     sprout-android (0.1.0)
       dmg (>= 0.0.0)
@@ -24,7 +24,7 @@ GIT
 GIT
   remote: https://github.com/pivotal-sprout/sprout-base
   ref: master
-  sha: e2649562c9ca53944d80380b1d95beb9c61df60e
+  sha: a2b7bd48ea5c11f9118086f2abda28f3c291e6cb
   specs:
     sprout-base (0.1.0)
 
