@@ -82,6 +82,7 @@ node_attributes:
       rubies:
         - 2.1.2
         - 2.0.0-p481
+      default_ruby: 2.1.2
     terminal:
       default_profile: 'Pro'
     settings:
