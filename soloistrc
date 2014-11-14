@@ -97,6 +97,7 @@ node_attributes:
       formulae:
         - ctags-exuberant
         - ag
+        - ack
         - chromedriver
         - imagemagick
         - node
@@ -125,6 +126,8 @@ node_attributes:
         - virtualbox
         - xquartz
         - xscope
+      launchctl:
+        redis: load
     android:
       haxm:
         dmg_path: extras/intel/Hardware_Accelerated_Execution_Manager/IntelHAXM_1.1.1_for_10_9_and_above.dmg
